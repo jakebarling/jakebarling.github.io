@@ -1,0 +1,130 @@
+<DOCTYPE html>
+<html> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picka Picture</title>
+<link rel="stylesheet" href="Style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+</head>
+    <body>
+    <section class="header">
+        <div id="head"></div>
+        <nav>
+            <a href="https://www.facebook.com/GordonCollegeOfficial"><img src="images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"> </i>
+                <ul>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#tutor">Guide</a></li>
+                <li><a href="#footer1">About</a></li>
+                </ul>
+            </div>
+          <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        
+<div class="text-box">
+   <h1>Picka Picture</h1> 
+    <p>Appreciate the moment that is captured.</p>
+    <a href="https://www.youtube.com/watch?v=bS6olJ94XRM" class="hero-btn">Click for more information</a>
+</div>
+        
+    </section>
+    
+<!------Gallery------>
+<section class="gallery">
+    <div id="gallery">
+    <h1>Gallery</h1>
+    <p>Photograph Album</p>
+   <div class="row">
+    <div class="loid"> 
+    <img src="images/loid.jpg">
+     </div>
+    <div class="sxf">
+    <img src="images/Er.jpg">
+    </div>
+    <div class="forg">
+         <img src="images/Forg.jpg">
+     </div>
+    </div>
+    </div>
+</section>  
+
+<section class="tutorial">
+    <h1>Guide</h1>
+    <p>Guides and Tips on getting better at taking a photo.</p>
+    <div id="tutor">
+    <div class="Guide">
+        <h3>Guides</h3>
+         <p>Learn how to use your camera by reading the manual.</p>
+        <p>Use good composition by following basic guidelines <br> such as the rule of thirds,<br> leading lines, symmetry, and framing.</p>
+        <p>Look at the work of photographers you admire <br> and seek feedback to grow as a photographer.</p>
+        <p>Try new things and be creative to develop your unique style <br> that reflects your vision and personality.
+        <br>
+            <br>
+        Have fun using the camera because in the end of the day <br>
+            you should have fun and not let anyone ruin your day.
+        </p>
+    </div>
+        <div class="Guide">
+            <h3>Tips</h3>
+            <p>Look for a different perspective by taking your photo <br> from an unusual angle or position to make it stand out.
+           <br>
+                <br>
+            Blur the background by using the aperture settings on your camera <br>to create a blurred background and make your subject stand out.
+            <br>
+                <br>
+            Choose a good background to make sure the background <br> doesn't distract from your subject and looks clean and simple.
+            <br>
+            <br>
+            Wait for the right moment and be patient and wait <br> for the perfect moment to take your photo.
+            <br>
+                <br>
+            Play with the exposure by adjusting the brightness and contrast of your photo<br>using the camera settings to make it look more interesting.
+            </p>
+    </div>
+    </div>
+</section> 
+        
+        <section class="footer">
+        <h4>About Me</h4>
+            <div id="footer1">
+            <img src="images/1x1.jpeg">
+            <p>Mr. Jake D. Barling<br>
+            CEO of Picka Picture<br>
+            Bachelor of Science in Entertainment and Multimedia Computing<br>
+            (Major in Digital Animation)</p>
+            <div class="lots">
+            <a href="https://www.facebook.com/profile.php?id=100092405929397" class="fab fa-facebook"></a>
+            <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+            <a href="https://twitter.com/?lang=en" class="fab fa-twitter-square"></a>
+             <a href="https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.linkedin.com/company/login&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Flogin%3Foriginal_referer%3Dhttps%253A%252F%252Fwww.google.com%252F" class="fab fa-linkedin"></a>   
+            </div>
+            </div>
+        </section>
+        
+        
+        
+        
+<!-----script----->
+<script>
+   
+    var navLinks = document.getElementById("navLinks");
+     
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+        function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+    
+</script>        
+    
+        <div class="scroll">
+        <a  href="#head" class="fa fa-chevron-up" aria-hidden="true"></a>
+        </div>
+        
+</body>
+</html>
